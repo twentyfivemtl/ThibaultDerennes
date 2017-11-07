@@ -1,0 +1,30 @@
+<!-- NAVBAR -->
+  <div class="navbar-portfolio navbar-fixed">
+    <!-- Portfolio brand name-->
+    <h2 class="brandname"><strong>TWENTY FIVE</strong></h2>
+    <div class="navbar-right">
+      <a href="#bio-jump" class="navbar-item navbar-link">Bio</a>
+      <a href="#experience-jump" class="navbar-item navbar-link">Experience</a>
+      <a href="#skills-jump" class="navbar-item navbar-link">Skills</a>
+      <a href="#education-jump" class="navbar-item navbar-link">Education</a>
+      <a href="mailto:t.derennes2@gmail.com" class="btn-navbar-contact">Contact</a>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+        // hide .navbar first
+        $(".navbar-portfolio").hide();
+        // fade in .navbar
+        $(function () {
+          $(window).scroll(function () {
+                  // set distance user needs to scroll before we fadeIn navbar
+                  if ($(this).scrollTop() > 852) {
+                    $('.navbar-portfolio').fadeIn("slow");
+                  } else {
+                    $('.navbar-portfolio').fadeOut("slow");
+                  }
+                });
+        });
+      });
+    </script>
