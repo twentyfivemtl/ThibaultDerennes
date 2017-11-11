@@ -1,7 +1,7 @@
 <div class="banner">
   <div class="container">
         <h1 class="name-banner hidden-xs hidden-sm">HI, I'M THIBAULT</h1>
-        <p class="hidden-md hidden-lg">THIBAULT</p>
+        <h1 style="font-size: 80px" class="hidden-md hidden-lg">THIBAULT</h1>
         <p class="banner-job">Full Stack Developer</p>
         <p class="banner-description">Front-end oriented !</p>
         <a href="#bio-link" class="btn-banner btn-lg">Let's start</a>
@@ -11,5 +11,22 @@
 </div>
     </div>
 
+<script>
+    $(function () {
+        // hide .navbar first
+        $(".mouse").hide();
+        // fade in .navbar
+        $(function () {
+          $(window).scroll(function () {
+                  // set distance user needs to scroll before we fadeIn navbar
+                  if ($(this).scrollTop() > 100) {
+                    $('.mouse').fadeOut("slow");
+                  } else {
+                    $('.mouse').fadeIn("slow");
+                  }
+                });
+        });
+      });
+    </script>
 
 
