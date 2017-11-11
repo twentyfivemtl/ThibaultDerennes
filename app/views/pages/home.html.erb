@@ -1,8 +1,10 @@
-<%= render 'shared/navbar' %>
-<%= render 'shared/banner' %>
-<%= render 'shared/bio' %>
-<%= render 'shared/experience' %>
+<div style="background-color: rgba(196, 35, 51, 0.80)">
+  <div>
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/banner' %>
+    <%= render 'shared/bio' %>
+    <%= render 'shared/experience' %>
+  </div>
+</div>
 
-
-
-
+<%= video_tag "blurry-code.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, :style => "width: 100%;" %>
