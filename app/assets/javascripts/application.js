@@ -6,3 +6,7 @@
 $(document).ready(function() {
     $(".dropdown-toggle").dropdown();
 });
+
+$('.container').on('click', function () {
+  $('.card').toggleClass('flipped');
+});
