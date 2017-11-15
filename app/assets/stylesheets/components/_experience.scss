@@ -1,4 +1,10 @@
 /* EXPERIENCE */
+.row-experiences{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 #experience-jump {
   text-decoration: none;
 }
@@ -16,7 +22,8 @@
 .tile {
   width:380px;
   height:380px;
-  margin:10px;
+  margin-bottom: 25px;
+  text-align: center;
   background-color:#99aeff;
   display:inline-block;
   background-size:cover;
@@ -59,11 +66,10 @@
   color: #902F40;
   font-weight:100;
   margin:20px 0 0 0;
-  // font-style:italic;
-   transform: translateX(200px);
-   a:hover {
-    color: #9A4151;
-   }
+  transform: translateX(200px);
+  a:hover {
+  color: #9A4151;
+  }
 }
 
 .tile p {
@@ -72,7 +78,6 @@
   font-weight:300;
   margin:20px 0 0 0;
   line-height: 22px;
-/*   opacity:0; */
   transform: translateX(-200px);
   transition-delay: 0.2s;
 }
