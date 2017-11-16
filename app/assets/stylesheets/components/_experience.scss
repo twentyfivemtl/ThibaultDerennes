@@ -16,7 +16,7 @@
   text-align: center;
   padding-top: 100px;
   color: white;
-  margin-bottom: 75px;
+  margin-bottom: 150px;
 }
 
 .tile {
@@ -63,17 +63,22 @@
 .tile a {
   font-family: 'Abel', sans-serif;
   text-decoration: none;
-  color: #902F40;
+  color: rgba(196, 35, 51, 0.80);
   font-weight:100;
-  margin:20px 0 0 0;
+  margin:30px 0 0 0;
   transform: translateX(200px);
-  a:hover {
-  color: #9A4151;
-  }
+  // a:hover {
+  // color: #9A4151;
+  // }
+}
+
+.tile a:hover {
+  cursor: pointer;
+  color: #902F40;
 }
 
 .tile p {
-  color: black;
+  color: white;
   font-family: 'Abel', sans-serif;
   font-weight:300;
   margin:20px 0 0 0;
@@ -88,13 +93,13 @@
 }
 
 .tile:hover {
-background-color:#D3D5D8;
+background-color: #A8A8A9;
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
+transform: scale(1.05);
 }
 
 .tile:hover img {
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .tile:hover .animate-text {
@@ -102,9 +107,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   opacity:1;
 }
 
-@media (max-width: 1000px) {
-  .wrap {
-   flex-direction: column;
-    width:400px;
-  }
-}
+// @media (max-width: 1000px) {
+//   .wrap {
+//    flex-direction: column;
+//     width:400px;
+//   }
+// }
