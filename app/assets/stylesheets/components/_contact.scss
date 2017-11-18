@@ -1,0 +1,107 @@
+.footer {
+  position: relative;
+  height: 400px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #CDCDCD;
+  z-index: 100;
+  // margin-top: 150px
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: #CDCDCD;
+  position: relative;
+}
+
+.contact-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+}
+
+.btn-contact {
+  color: #902F40;
+  // border: 1px solid #902F40;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 28px;
+  background-color: white;
+}
+
+.btn-contact:hover {
+  color: #902F40;
+  text-decoration: none;
+  border: 1.5px solid #902F40;
+}
+
+.footer-copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 55px;
+  margin-bottom: 0;
+  color: #902F40;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Abel', sans-serif;
+}
+
+// Courtesy of https://codepen.io/vivinantony/pen/Qbbaqv?q=social&limit=all&type=type-pens
+
+.social-nav{
+  margin-top: 120px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  li{
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    background: #000;
+    position: relative;
+    transition: (.5s);
+  }
+}
+
+.model-9{
+  li{margin:0 10px ;}
+  a{
+    color: #fff;
+    overflow: hidden;
+    border-radius: (100%);
+    &:hover{
+      background: #fff;
+      .fa{ animation: (.4s icon-move linear 0s)}
+    }
+  }
+  .twitter{
+    background:#00ACED;
+    &:hover{ color:#00ACED}
+  }
+  .github{
+    background:#404448;
+    &:hover{ color:#404448}
+  }
+  .linkedin{
+    background:#007BB6;
+    &:hover{ color:#007BB6}
+  }
+}
+
+

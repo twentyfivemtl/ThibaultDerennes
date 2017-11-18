@@ -1,8 +1,37 @@
-<!-- <div class="container">
-    <div class="row">
-        <div class="col-xs-12">click button to email</div>
-        <div class="col-xs-4">github</div>
-        <div class="col-xs-4">twitter</div>
-        <div class="col-xs-4">linkedin</div>
-    </div>
-</div> -->
+<div class="footer" id="contact-jump">
+  <div id="map">
+  </div>
+  <div class="contact-content">
+    <a href="mailto:t.derennes2@gmail.com" class="btn-contact btn-lg">Email me here</a>
+    <ul class="social-nav model-9">
+      <li><a href="https://twitter.com/wazz25" class="twitter"><i class="fa fa-twitter"></i></a></li>
+      <li>
+        <a href="https://github.com/twentyfivemtl" class="github"> <i class="fa fa-github"></i></a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/thibaultderennes/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+    <p class="footer-copyright">© 2017 TWENTY FIVE</p>
+  </div>
+   <script>
+      function initMap() {
+        var uluru = {lat: 45.5227798, lng: -73.62866539999999};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCv32A1yx78HSnAq4S7yQatV5I3aTQL3z4&callback=initMap">
+    </script>
+</div>
+
+
+
+
+
+
