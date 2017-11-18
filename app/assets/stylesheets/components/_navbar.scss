@@ -46,12 +46,14 @@
   padding: 10px 15px;
   cursor: pointer;
   font-size: 14px;
+  transition: (1s);
 }
 
 .btn-navbar-contact:hover {
+  color: #FFF;
+  background-color: rgba(196, 35, 51, 0.80);
   text-decoration: none;
-  color: #902F40;
-  border-color: #902F40;
+  border: 1px solid #c35b5f;
 }
 
 .navbar-link {

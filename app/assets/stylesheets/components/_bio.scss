@@ -54,10 +54,11 @@
   text-decoration: none;
   padding: 10px 20px;
   cursor: pointer;
+  transition: (1s);
 }
 
 .btn-bio:hover {
-  color: white;
+  color: #902F40;
   text-decoration: none;
-  border: 1.5px solid #F6F5F5;
+  background-color: #F6F5F5;
 }
