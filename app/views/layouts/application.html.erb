@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="UTF-8">
     <title>Thibault Derennes</title>
-    <meta prefix="og: http://ogp.me/ns#" property='og:title' content='Thibault Derennes'/>
-    <meta prefix="og: http://ogp.me/ns#" property='og:image' content='/assets/meta-card.png'/>
-    <meta prefix="og: http://ogp.me/ns#" property='og:description' content='My Portfolio'/>
-    <meta prefix="og: http://ogp.me/ns#" property='og:url' content='https://thibaultderennes.herokuapp.com/'/>
+    <meta property="og:title" content="My Shared Article Title" />
+    <meta property="og:description" content="Description of shared article" />
+    <meta property="og:url" content="http://example.com/my_article.html" />
+    <meta property="og:image" content="http://example.com/foo.jpg" />
+  </head>
     <link rel="shortcut icon" href="/assets/nav-icon.png" />
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
